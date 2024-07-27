@@ -38,7 +38,7 @@ export default function Component() {
             <div>
               <h2 className="text-3xl font-bold mb-4">精准测量您的手指力量</h2>
               <p className="text-muted-foreground mb-6">
-                我们先进的手指力量检测器提供准确的手指力量测量,帮助您跟踪进度,实现健身目标。
+                我们先进的手指力量检测器提供准确的手指力量测量,帮助您跟踪进度,实现健身目标。帮助医生更好了解您的康复情况。
               </p>
               <Button className="mb-4">立即购买</Button>
             </div>
@@ -180,7 +180,7 @@ export default function Component() {
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center gap-4">
             <FingerprintIcon className="w-6 h-6" />
-            <span className="text-sm">© 2023 手指力量检测器</span>
+            <span className="text-sm">© 2024 手指力量检测器</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#" className="hover:underline" prefetch={false}>
